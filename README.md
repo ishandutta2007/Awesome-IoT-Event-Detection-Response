@@ -42,53 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+| Platform | Company Size / Valuation | Starting Price | Free Tier / Free Trial Limits | Key Features & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Stream Analytics](https://azure.microsoft.com/en-us/products/stream-analytics/)** | **$3.92 Trillion** Market Cap<br>*(Microsoft, $331.8B Annual Rev)* | **$0.11 / SU-hour**<br>*(Streaming Unit V2 model)* | **$200 free credit for 30 days**<br>*(Azure Free Account)* | Real-time SQL queries on telemetry stream with automated event triggers. **Best for Azure-native event processing**. |
+| **[AWS IoT Events](https://aws.amazon.com/iot-events/)** | **$2.18 Trillion** Market Cap<br>*(Amazon, $128.7B AWS Annual Rev)* | **$0.15 / 1,000 message evaluations**<br>*(+ $0.10 / 100k state changes)* | **2,500 message evaluations / month for 12 months**<br>*(China regions / $300 AWS trial credit)* | Managed complex event processing using conditional "if-then-else" rules across telemetry sources. **Best for AWS-native IoT event detection**. |
+| **[Datadog IoT](https://www.datadoghq.com/)** | **$97.2 Billion** Market Cap<br>*($3.43B Annual Rev)* | **$15 / host / month**<br>*(Pro plan, annual billing)* | **14-day free trial**<br>*(Unlimited metrics & platform features)* | Unified infrastructure metrics, log monitoring, and telemetry anomaly alerts for device fleets. **Best for unified IoT & cloud observability**. |
+| **[PTC ThingWorx](https://www.ptc.com/)** | **$22.6 Billion** Valuation<br>*(Acquired by Schneider Electric, $2.2B Rev)* | **~$2,000 / month**<br>*($24,000/yr starting enterprise base)* | **30-day developer sandbox trial**<br>*(PTC Developer Portal access)* | Industrial IoT platform with drag-and-drop event processing, AR integration, and asset tracking. **Best for industrial IoT applications**. |
+| **[Losant Enterprise IoT](https://www.losant.com/)** | **$2.5 Billion** Parent Valuation<br>*(Acquired by SUSE, $25.2M total funding)* | **$150 / month**<br>*(Starter plan for 500k payload evaluations)* | **Free Developer Sandbox**<br>*(Up to 10 devices & 30-day data retention, no expiration)* | Visual workflow builder, edge compute engine, and device state monitoring. **Best for enterprise IoT event workflows**. |
+| **[Cumulocity Streaming Analytics](https://cumulocity.com/docs/2026/streaming-analytics/introduction-analytics/)** | **~$500M - $1 Billion** Valuation<br>*(Backed by Avedon/Schroders; Software AG €2.6B buyout)* | **€299 / month**<br>*(Cloud Tenant starter tier up to 100 devices)* | **30-day free trial**<br>*(Full Analytics Builder CEP & EPL app access)* | Enterprise IoT platform powered by Apama complex event processing engine for drag-and-drop analytics. **Best for enterprise IoT with real-time analytics**. |
+| **[Waylay](https://www.waylay.io/platform)** | **$17.9 Million** Valuation<br>*(Acquired by Vertiv, ~$9M Annual Rev)* | **€5 / month**<br>*(Waylay IO Developer Plan)* | **14-day free trial**<br>*(1,000 rule executions & visual flow builder access)* | Low-code hyper-automation unifying time-series telemetry, event streams, and AI automation flows. **Best for workflow-based IoT automation**. |
+| **[ClearBlade](https://clearblade.com/)** | **~$15M - $25 Million** Est. Valuation<br>*($6.8M Annual Recurring Rev)* | **$0.0005 / MB**<br>*(Or $50/mo starter cloud package)* | **Free Developer Account**<br>*(5 edge nodes, 100 devices & 10,000 msg/mo)* | Event types with severity/priority levels; triggers actions on MQTT/HTTP lifecycle events. **Best for enterprise IoT event management**. |
 
 
-- **[AWS IoT Events](https://aws.amazon.com/iot-events/)**  
-
-  **AWS's fully managed complex event detection service** — easily detect and respond to events from IoT sensors and applications . **Uses simple "if-then-else" statements to define event logic** across multiple telemetry sources . **Triggers alerts and actions** such as notifying support teams or shutting down faulty equipment . **Pricing**: pay per message evaluation (1KB increments) with 2 triggered actions included per evaluation; additional actions count as extra evaluations . **Free tier**: 2,500 message evaluations/month for 12 months (China regions only) . **Alarm pricing**: ¥0.653 per active alarm per month (China regions) . **Best for AWS-native IoT event detection** .
-
-
-
-- **[Software AG Cumulocity Streaming Analytics](https://cumulocity.com/docs/2026/streaming-analytics/introduction-analytics/)**  
-
-  **Enterprise IoT platform with built-in Apama complex event processing engine** — immediate processing of incoming data from devices or data sources . **Typical use cases**: remote control (turn off device if temperature exceeds 40°C), validation (discard invalid readings), derived data (calculate sales volume), aggregation, notifications, and compression . **Analytics Builder** for drag-and-drop model creation and **EPL Apps** for custom Event Processing Language code . **Runs automatically within the platform** with no manual setup required . **Available in Core (cloud) and Edge (local installation)** modes . **Best for enterprise IoT with real-time analytics** .
-
-
-
-- **[Waylay](https://www.waylay.io/platform)**  
-
-  **Low-code hyper-automation platform for IoT event detection and response** — unifies process automation, decision management, and API orchestration . **Integrates time series data, event streams, and AI models** in a low-code environment . **Enables accelerated service roll-out up to 20x faster** — subject matter experts translate domain knowledge into automation flows without bespoke software development . **AI models wired into automated flows** for intelligent, near real-time insights and closed-loop automation . **Scales to millions of workflow executions per day** . **Deployment**: SaaS (AWS region of choice) or on-premises (Kubernetes) . **Best for workflow-based IoT automation** .
-
-
-
-- **[Losant Enterprise IoT](https://www.losant.com/)**  
-
-  **Enterprise IoT application platform** — visual workflow builder, edge compute, and device management . **Best for enterprise IoT event-driven workflows** .
-
-
-
-- **[PTC ThingWorx](https://www.ptc.com/)**  
-
-  **Industrial IoT platform** — IoT solutions, AR, and data analytics with event-driven processing . **Enterprise licensing varies**  . **Best for industrial IoT applications** .
-
-
-
-- **[Datadog IoT](https://www.datadoghq.com/)**  
-
-  **Observability platform with IoT monitoring** — infrastructure metrics, logs, and alerts for device fleets . **Best for unified observability across IoT and cloud** .
-
-
-
-- **[Azure Stream Analytics](https://azure.microsoft.com/en-us/products/stream-analytics/)**  
-
-  **Microsoft's real-time analytics service** — SQL-like queries on streaming data with event detection . **Best for Azure-native event processing** .
-
-
-
-- **[ClearBlade](https://clearblade.com/)**  
-
-  **Enterprise IoT platform with event types and rules** — define event types with severity, priority, and lifecycle states; create rules that trigger actions (email, SMS) when conditions are satisfied . **Device event logs capture MQTT/HTTP lifecycle events** including connects, publishes, subscribes, and disconnects . **Best for enterprise IoT event management** .
 
 
 
