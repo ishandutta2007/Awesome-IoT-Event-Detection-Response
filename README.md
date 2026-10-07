@@ -1,46 +1,46 @@
-# Awesome-IoT-Event-Detection-Response
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome IoT Event Detection & Response Banner" width="100%"/>
+</p>
 
-## Top IoT Event Detection & Response Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-IoT-Event-Detection-Response/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-IoT-Event-Detection-Response?style=flat-square&color=yellow" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-IoT-Event-Detection-Response/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-IoT-Event-Detection-Response?style=flat-square&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-IoT-Event-Detection-Response/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-IoT-Event-Detection-Response?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+# ⚡ Awesome IoT Event Detection & Response
 
+> **Curated List of Commercial SaaS Platforms, Complex Event Processing (CEP) Engines & Open-Source IoT Automation Tools**  
+> *Track real-time device telemetry, detect operational anomalies & trigger automated responses across Edge, Fog, and Cloud infrastructure.*
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+---
 
-*Focused on Complex Event Processing, Automated Response & Self-Hosted IoT Analytics*  
+## 📖 Overview & Ecosystem Scope
 
-**Last updated: October 2026**
+This repository provides an authoritative, SEO-optimized directory of **managed SaaS solutions** and **open-source GitHub projects** designed for **IoT Event Detection and Automated Response**.
 
+Modern IoT networks generate high-velocity telemetry streams. Detecting meaningful events—such as hardware failures, temperature breaches, physical security alerts, or anomalous patterns—requires low-latency **Complex Event Processing (CEP)**, flexible **Rule Engines**, and reliable **Action Workflows**.
 
+---
 
-This repository tracks notable **commercial IoT event detection platforms** and **open-source projects** that monitor device telemetry, detect meaningful events (failures, anomalies, threshold breaches), and trigger automated responses — from fully managed cloud services to self-hosted complex event processing engines.
+## 📍 Table of Contents
 
+- [☁️ SaaS & Hosted Enterprise Platforms](#%EF%B8%8F-saas--hosted-enterprise-platforms)
+- [🔓 Open-Source GitHub Projects & CEP Engines](#-open-source-github-projects--cep-engines)
+- [🛠️ Architecture & Deployment Patterns](#%EF%B8%8F-architecture--deployment-patterns)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 
+---
 
-**Examples** include AWS IoT Events, Losant Enterprise IoT, PTC ThingWorx, Software AG Cumulocity, ThingsBoard, Waylay, Datadog IoT, Azure Stream Analytics, ClearBlade, and Falco (the category leaders).
+## ☁️ SaaS & Hosted Enterprise Platforms
 
-
-
-**Open-source emphasis**: IoT event detection is anchored by **ThingsBoard** as the most popular open-source IoT platform with a comprehensive rule engine, **Magistrala** for cloud-native IoT messaging with fine-grained access control and a rules engine, **Rule Engine Core** for declarative complex event processing with deterministic replay, and **StreamSQL** for SQL-based event processing on edge gateways. **Falco** provides runtime security event detection for IoT and edge computing environments. **Node-RED** and **Apache Flink** handle event-driven automation and stream processing. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
+> 📊 **Market Analysis & Insights**: The global **IoT Analytics & Event Processing Market** is estimated at **~$38.5 Billion in 2026** (projected to reach ~$85 Billion by 2030 at a CAGR of ~22%). The sector is **moderately fragmented**, balancing public cloud hyperscalers (AWS, Azure) providing fundamental stream infrastructure alongside specialized enterprise industrial platforms (PTC ThingWorx, Cumulocity IoT) and agile hyper-automation platforms (Waylay, Losant, ClearBlade)—preventing a strict "winner-take-all" concentration.
 
 | Platform | Company Size / Valuation | Starting Price | Free Tier / Free Trial Limits | Key Features & Best For |
 | :--- | :--- | :--- | :--- | :--- |
@@ -53,148 +53,127 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[Waylay](https://www.waylay.io/platform)** | **$17.9 Million** Valuation<br>*(Acquired by Vertiv, ~$9M Annual Rev)* | **€5 / month**<br>*(Waylay IO Developer Plan)* | **14-day free trial**<br>*(1,000 rule executions & visual flow builder access)* | Low-code hyper-automation unifying time-series telemetry, event streams, and AI automation flows. **Best for workflow-based IoT automation**. |
 | **[ClearBlade](https://clearblade.com/)** | **~$15M - $25 Million** Est. Valuation<br>*($6.8M Annual Recurring Rev)* | **$0.0005 / MB**<br>*(Or $50/mo starter cloud package)* | **Free Developer Account**<br>*(5 edge nodes, 100 devices & 10,000 msg/mo)* | Event types with severity/priority levels; triggers actions on MQTT/HTTP lifecycle events. **Best for enterprise IoT event management**. |
 
+---
 
+## 🔓 Open-Source GitHub Projects & CEP Engines
 
+*Open-source options sorted in descending order by **GitHub Star Count**.*
 
+1. **[Huginn](https://github.com/huginn/huginn)** <a href="https://github.com/huginn/huginn/stargazers"><img src="https://img.shields.io/github/stars/huginn/huginn?style=social&color=white" alt="Huginn Stars"/></a>  
+   **Agent-based system for building automated event-driven workflows & web monitoring** (~50,000+ stars), MIT licensed. Creates online agents that watch for events, aggregate telemetry signals, and execute actions based on custom logic. **Best for agentic event monitoring and web triggering**.
 
-## Open-Source GitHub Projects
+2. **[Apache Kafka](https://github.com/apache/kafka)** <a href="https://github.com/apache/kafka/stargazers"><img src="https://img.shields.io/github/stars/apache/kafka?style=social&color=white" alt="Kafka Stars"/></a>  
+   **Distributed event streaming platform with persistent pub/sub architecture** (~33,900+ stars), Apache-2.0 licensed. High-throughput distributed message log with Kafka Streams for continuous stream evaluation and stateful processing. **Best for enterprise event streaming infrastructure**.
 
+3. **[Apache Flink](https://github.com/apache/flink)** <a href="https://github.com/apache/flink/stargazers"><img src="https://img.shields.io/github/stars/apache/flink?style=social&color=white" alt="Flink Stars"/></a>  
+   **Stateful stream processing engine with low latency and exactly-once semantics** (~24,500+ stars), Apache-2.0 licensed. Features event-time semantics, flexible sliding/tumbling windows, and stateful CEP (Complex Event Processing) library. **Best for mission-critical stream analytics**.
 
+4. **[Node-RED](https://github.com/node-red/node-red)** <a href="https://github.com/node-red/node-red/stargazers"><img src="https://img.shields.io/github/stars/node-red/node-red?style=social&color=white" alt="Node-RED Stars"/></a>  
+   **Low-code flow-based programming tool for visual event-driven IoT wiring** (~23,700+ stars), Apache-2.0 licensed. Browser-based editor for wiring hardware devices, APIs, and online services with real-time condition nodes. **Best for visual IoT event automation**.
 
-### IoT Platforms with Rule Engines
+5. **[ThingsBoard](https://github.com/thingsboard/thingsboard)** <a href="https://github.com/thingsboard/thingsboard/stargazers"><img src="https://img.shields.io/github/stars/thingsboard/thingsboard?style=social&color=white" alt="ThingsBoard Stars"/></a>  
+   **The leading open-source IoT platform featuring a flexible rule engine** (~22,500+ stars), Apache-2.0 licensed. Evaluates device telemetry, triggers state alarms, supports multi-tenancy (RBAC), and manages MQTT/CoAP/HTTP device fleets. **Best for complete IoT platform with rule engine**.
 
+6. **[Vector](https://github.com/vectordotdev/vector)** <a href="https://github.com/vectordotdev/vector/stargazers"><img src="https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white" alt="Vector Stars"/></a>  
+   **High-performance observability data pipeline written in Rust** (~18,500+ stars), MPL-2.0 licensed. Collects, transforms, and routes logs, metrics, and telemetry events with real-time condition evaluation. **Best for edge & cloud telemetry pipelines**.
 
+7. **[NATS Server](https://github.com/nats-io/nats-server)** <a href="https://github.com/nats-io/nats-server/stargazers"><img src="https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white" alt="NATS Stars"/></a>  
+   **Cloud-native messaging system designed for high-speed edge & microservice pub/sub** (~16,500+ stars), Apache-2.0 licensed. Features JetStream for persistent event streams and lightweight edge routing. **Best for lightweight IoT messaging & event transport**.
 
-- **[ThingsBoard](https://github.com/thingsboard/thingsboard)**  
+8. **[Telegraf](https://github.com/influxdata/telegraf)** <a href="https://github.com/influxdata/telegraf/stargazers"><img src="https://img.shields.io/github/stars/influxdata/telegraf?style=social&color=white" alt="Telegraf Stars"/></a>  
+   **Plugin-driven agent for collecting, processing, and aggregating telemetry metrics** (~15,200+ stars), MIT licensed. Offers 300+ plugins for IoT sensors, system metrics, and automated alert outputs. **Best for metrics collection & event filtering**.
 
-  **The most popular open-source IoT platform with 17,000+ GitHub stars**, Apache-2.0 licensed . **Rule Engine for event-based workflows** — trigger actions on device data, alarms, and schedules . **Device management, data collection, processing, and visualization** . **Multi-tenancy with RBAC** — manage multiple organizations from one instance . **Supports MQTT, CoAP, HTTP, LwM2M, SNMP** with dashboards and device management . **Security**: Two-Factor Authentication, OAuth 2.0, Access Tokens, X.509 Certificates, SSL, DTLS . **Trade-offs**: Can be resource-heavy; Community edition lacks many Professional features . **Best for comprehensive IoT platform with rule engine** .
+9. **[EMQX](https://github.com/emqx/emqx)** <a href="https://github.com/emqx/emqx/stargazers"><img src="https://img.shields.io/github/stars/emqx/emqx?style=social&color=white" alt="EMQX Stars"/></a>  
+   **Ultra-scalable distributed MQTT broker with built-in SQL-based rule engine** (~14,500+ stars), Apache-2.0 licensed. Handles millions of concurrent IoT MQTT connections and evaluates rules directly on payload streams. **Best for high-throughput MQTT event routing**.
 
+10. **[Eclipse Mosquitto](https://github.com/eclipse/mosquitto)** <a href="https://github.com/eclipse/mosquitto/stargazers"><img src="https://img.shields.io/github/stars/eclipse/mosquitto?style=social&color=white" alt="Mosquitto Stars"/></a>  
+    **Lightweight MQTT broker for IoT devices and constrained gateway environments** (~9,500+ stars), EPL-2.0 / EDL-1.0 licensed. Highly efficient C implementation ideal for low-power edge gateways forwarding telemetry events. **Best for lightweight MQTT message broker**.
 
+11. **[Redpanda Connect / Benthos](https://github.com/redpanda-data/connect)** <a href="https://github.com/redpanda-data/connect/stargazers"><img src="https://img.shields.io/github/stars/redpanda-data/connect?style=social&color=white" alt="Redpanda Connect Stars"/></a>  
+    **Stream processor & data pipeline tool enabling declarative stream transformations without code** (~7,800+ stars), Apache-2.0 licensed. Evaluates conditions, enriches payloads, and routes IoT event streams efficiently. **Best for no-code stream processing**.
 
-- **[Magistrala](https://github.com/absmach/magistrala)**  
+12. **[Falco](https://github.com/falcosecurity/falco)** <a href="https://github.com/falcosecurity/falco/stargazers"><img src="https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white" alt="Falco Stars"/></a>  
+    **CNCF cloud-native runtime security event detection engine for Linux, K8s & IoT/Edge** (~7,800+ stars), Apache-2.0 licensed. Uses eBPF/kernel probes to detect abnormal system calls, container breaches, and physical edge tampers. **Best for IoT runtime security event detection**.
 
-  **Modern, Go-based, cloud-native IoT platform framework** (formerly Mainflux), Apache-2.0 licensed . **Includes a dedicated Rule Engine service** for event-driven processing . **Small number of main concepts**: users, devices, channels, messages, policies — familiar to most engineers . **Atom integration model** provides identity, authorization, and catalog with workspaces (tenants), entities, resources, and groups . **Fine-grained access control** — define object-scoped roles like "reader on channel1" . **Scales from simple prototypes to complex deployments** without rigid patterns . **Trade-offs**: No built-in dashboard (available via plugins); community support still catching up to Java-based platforms . **Best for high-performance, cloud-native IoT event processing** .
+13. **[KubeEdge](https://github.com/kubeedge/kubeedge)** <a href="https://github.com/kubeedge/kubeedge/stargazers"><img src="https://img.shields.io/github/stars/kubeedge/kubeedge?style=social&color=white" alt="KubeEdge Stars"/></a>  
+    **CNCF edge computing platform extending Kubernetes capabilities to IoT devices** (~6,500+ stars), Apache-2.0 licensed. Manages edge node state, syncs telemetry, and triggers edge event workloads. **Best for Kubernetes-based edge node management**.
 
+14. **[Apache NiFi](https://github.com/apache/nifi)** <a href="https://github.com/apache/nifi/stargazers"><img src="https://img.shields.io/github/stars/apache/nifi?style=social&color=white" alt="NiFi Stars"/></a>  
+    **Visual dataflow automation platform for directing, transforming, and routing event streams** (~4,900+ stars), Apache-2.0 licensed. Supports real-time backpressure, data provenance tracking, and flow control. **Best for enterprise visual data ingestion & routing**.
 
+15. **[Magistrala](https://github.com/absmach/magistrala)** <a href="https://github.com/absmach/magistrala/stargazers"><img src="https://img.shields.io/github/stars/absmach/magistrala?style=social&color=white" alt="Magistrala Stars"/></a>  
+    **Cloud-native Go-based IoT platform framework (formerly Mainflux) with granular access control** (~2,500+ stars), Apache-2.0 licensed. Features microservices architecture and a dedicated rule engine service for cloud/edge messaging. **Best for high-performance cloud-native IoT platforms**.
 
-### Complex Event Processing (CEP) Engines
+16. **[RuleGo](https://github.com/rulego/rulego)** <a href="https://github.com/rulego/rulego/stargazers"><img src="https://img.shields.io/github/stars/rulego/rulego?style=social&color=white" alt="RuleGo Stars"/></a>  
+    **Lightweight, high-performance rule engine library written in Go** (~2,100+ stars), Apache-2.0 licensed. Supports component-based rule chain architecture, dynamic rule updating, and high-throughput event processing. **Best for embeddable Go rule engines**.
 
+17. **[LF Edge eKuiper](https://github.com/lf-edge/ekuiper)** <a href="https://github.com/lf-edge/ekuiper/stargazers"><img src="https://img.shields.io/github/stars/lf-edge/ekuiper?style=social&color=white" alt="eKuiper Stars"/></a>  
+    **Lightweight SQL-based stream processing engine specifically designed for IoT edge devices** (~1,700+ stars), Apache-2.0 licensed. Enables running complex stream queries on resource-constrained gateways with minimal footprint. **Best for edge gateway SQL stream processing**.
 
-
-- **[Rule Engine Core](https://zenodo.org/records/22015264)**  
-
-  **Compact, embeddable complex event processing (CEP) runtime written in Python**, open-source . **Detection logic expressed declaratively in YAML**, validated against formal schema, compiled into executable runtime objects . **Five trigger families**: event (matching event satisfies condition), window (aggregate over time window), absence (no matching event before timeout), composite (per-source absence timers), and scheduled (cron expression) . **Window rules support count, sum, mean, minimum, maximum, standard deviation, delta, rate, and percentile aggregations** . **Deterministic replay** — timer-driven rules advance on explicit watermark rather than wall-clock, enabling reproducible and testable behavior . **At-least-once delivery** with idempotency keys, bounded retries, and dead-letter recording . **Five sink adapters**: stdout, file, webhook (with HMAC signing), queue, and object storage . **Event-time order enforced** with configurable allowed lateness tolerance . **Engine state capture and restore** — versioned JSON snapshots for resumed runs . **Alert lifecycle** with cooldown, reminder intervals, and resolution emission . **Pattern matching** for ordered temporal sequences with negating event cancellation . **Explain facility** reports what each rule would do without altering engine state . **Simulation facility** backtests streams against rule sets . **Best for deterministic, embeddable CEP** .
-
-
-
-- **[StreamSQL](https://github.com/rulego/streamsql)**  
-
-  **SQL-based stream processing engine for IoT edge gateways**, open-source . **Sliding, counting, session, and global windows** with built-in aggregates (MAX, MIN, AVG, SUM, COUNT, STDDEV, MEDIAN, PERCENTILE) . **Event-time and processing-time semantics** with watermarks for out-of-order and late data . **Configurable tolerance**: MAXOUTOFORDERNESS, ALLOWEDLATENESS, IDLETIMEOUT . **Custom functions registrable at runtime** — eight function types (math, string, conversion, datetime, aggregate, analytic, window, custom) . **Performance**: ~1.92M msg/s for filter, ~740K msg/s for transform, ~480K msg/s for analytic with partition on x86 single-core . **128MB holds 100k+ devices of partition state** — memory is not the bottleneck, CPU throughput is . **Runs as RuleGo rule-chain nodes** . **Best for edge gateway event processing with SQL** .
-
-
-
-### Runtime Security Event Detection
-
-
-
-- **[Falco](https://github.com/falcosecurity/falco)**  
-
-  **Runtime security event detection for Linux, Kubernetes, and IoT & Edge computing**, Apache-2.0 licensed . **Detects any behavior including Linux system calls and triggers alerts** based on specific system calls, arguments, and process properties . **Operates in both user space and kernel space** — system calls interpreted by Falco kernel module, parsed using user-space libraries . **Events filtered using rule engine configured with Falco rules** . **Suspicious events alerted to configured outputs** (Syslog, file, stdout) . **Deployable on Linux hosts, containers, managed Kubernetes clusters, or K3s clusters on IoT & Edge** . **Best for IoT security event detection** .
-
-
-
-### Event-Driven Automation
-
-
-
-- **[Node-RED](https://github.com/node-red/node-red)**  
-
-  **Flow-based programming for event-driven IoT applications**, Apache-2.0 licensed with **20,000+ GitHub stars** . **Visual wiring of devices, APIs, and services** . **The standard for IoT automation and triggering** . **Best for visual IoT event-driven automation** .
-
-
-
-- **[Apache Flink](https://github.com/apache/flink)**  
-
-  **Stateful stream processing engine**, Apache-2.0 licensed with **24,000+ GitHub stars** . **Exactly-once semantics, event-time processing, and savepoints** . **Best for mission-critical stream processing** .
-
-
-
-- **[Apache Kafka](https://github.com/apache/kafka)**  
-
-  **Event streaming platform**, Apache-2.0 licensed with **28,000+ GitHub stars** . **Distributed pub/sub with persistence** . **Best for high-throughput event streaming** .
-
-
-
-- **[NATS](https://github.com/nats-io/nats-server)**  
-
-  **Cloud-native messaging system**, Apache-2.0 licensed . **Lightweight, high-performance pub/sub** with JetStream for persistence . **Best for lightweight IoT messaging** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Eclipse Mosquitto** — MQTT broker for IoT messaging .
-
-- **EMQX** — Scalable MQTT broker with rule engine .
-
-- **Telegraf** — Metrics collection agent with processing plugins .
-
-- **Apache NiFi** — Data flow automation with event processing .
-
-- **Benthos (Redpanda Connect)** — Stream processing without code .
-
-- **Vector** — Observability data pipeline .
-
-- **Huginn** — Agent-based automation for event monitoring .
-
-- **Pipedream** — Event-driven workflow automation .
-
-
-
-**Frameworks for building custom IoT event detection and response solutions**: Combine **ThingsBoard** for comprehensive IoT platform with rule engine and visualization . Use **Magistrala** for cloud-native IoT messaging with fine-grained access control and rules engine . Deploy **Rule Engine Core** for deterministic, embeddable complex event processing with YAML-declared rules . Choose **StreamSQL** for SQL-based event processing on edge gateways . Integrate **Falco** for runtime security event detection on IoT and edge devices . Use **Node-RED** for visual event-driven automation . Note that true managed IoT event detection with global infrastructure, automatic scaling, and vendor-supported SLAs (AWS IoT Events, Cumulocity, Waylay) remains primarily commercial territory; open-source stacks provide strong rule engines, complex event processing, and event-driven automation foundations that require integration for complete IoT event detection and response.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- IoT event detection platforms handle device telemetry and may trigger physical actions. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations.
-
-- **Event detection logic must be carefully designed** — false positives can trigger unnecessary actions; false negatives can miss critical failures . Test rules thoroughly before production deployment.
-
-- **License considerations**: ThingsBoard uses Apache-2.0, Magistrala uses Apache-2.0, Rule Engine Core is open-source, StreamSQL is open-source, and Falco uses Apache-2.0 . Verify licensing against your use case before committing.
-
-- The open-source ecosystem provides strong rule engines, complex event processing, and event-driven automation foundations, but **managed infrastructure, global scale, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+18. **[Rule Engine Core](https://zenodo.org/records/22015264)** <a href="https://zenodo.org/records/22015264"><img src="https://img.shields.io/badge/Zenodo-Open%20Source-blue?style=social&color=white" alt="Rule Engine Core"/></a>  
+    **Compact, embeddable Python complex event processing (CEP) engine** with YAML-declared rules, deterministic replay, explicit watermarking, and alert lifecycle management. **Best for deterministic embeddable Python CEP**.
 
 ---
 
+## 🛠️ Architecture & Deployment Patterns
 
+Architecting a reliable IoT event detection and response pipeline typically follows one of three structural patterns:
 
-**Made for IoT engineers, embedded developers, and organizations seeking IoT event detection sovereignty.**  
+1. **Edge-First Local Rule Engines**:  
+   Deploy lightweight processing runtimes (**LF Edge eKuiper**, **StreamSQL**, **Falco**, or **RuleGo**) directly on edge gateways (e.g., Raspberry Pi, NVIDIA Jetson, K3s clusters). Ensures sub-millisecond local response without cloud latency.
 
-Let's make IoT event detection and response more open, transparent, and automated.
+2. **Cloud-Native Centralized CEP & Rules Engine**:  
+   Forward raw telemetry via MQTT/NATS to centralized engines (**ThingsBoard**, **Magistrala**, or **AWS IoT Events**). Leverages cloud scale for stateful temporal correlations across thousands of device fleets.
+
+3. **Hybrid Event-Driven Architecture (EDA)**:  
+   Filter high-frequency sensor noise at the edge via **Vector** or **EMQX**, streaming verified anomalies into distributed logs (**Apache Kafka** or **Apache Flink**) to trigger automated business workflows (**Node-RED**, **Huginn**, or **Waylay**).
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Please follow these steps to add new tools or update existing entries:
+
+1. 🍴 **Fork this repository**.
+2. 📝 Add or modify entries in `README.md` maintaining the existing table or list format.
+3. 🔗 Include accurate project name, official website/repo link, star count badge, licensing, and 1–2 sentence factual summary.
+4. 🚀 Open a **Pull Request (PR)** with a clear title describing your changes.
+
+Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list for educational and engineering reference.
+- IoT event detection systems frequently trigger physical hardware actions (relays, valves, alarms). Always thoroughly backtest rules in sandbox environments prior to production deployment.
+- Verify software licenses independently to ensure compliance with your enterprise deployment policies.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-IoT-Event-Detection-Response&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-IoT-Event-Detection-Response&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated ecosystem directory helpful:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork & Contribute** by adding new tools or updating entry details.
+- 📢 **Share** with your fellow IoT engineers, embedded developers, and cloud architects.
+- ☕ **Sponsor & Buy me a coffee**: Support ongoing open-source research and maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=githubsponsors" alt="Sponsor"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for IoT Engineers & Cloud Architects Worldwide</b>
+</p>
