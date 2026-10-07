@@ -57,7 +57,7 @@ Modern IoT networks generate high-velocity telemetry streams. Detecting meaningf
 
 ## 🔓 Open-Source GitHub Projects & CEP Engines
 
-*Open-source options sorted in descending order by **GitHub Star Count**.*
+*Open-source options sorted in descending order by **GitHub Stars_Count**.*
 
 1. **[Huginn](https://github.com/huginn/huginn)** <a href="https://github.com/huginn/huginn/stargazers"><img src="https://img.shields.io/github/stars/huginn/huginn?style=social&color=white" alt="Huginn Stars"/></a>  
    **Agent-based system for building automated event-driven workflows & web monitoring** (~50,000+ stars), MIT licensed. Creates online agents that watch for events, aggregate telemetry signals, and execute actions based on custom logic. **Best for agentic event monitoring and web triggering**.
@@ -136,7 +136,7 @@ Contributions are warmly welcomed! Please follow these steps to add new tools or
 
 1. 🍴 **Fork this repository**.
 2. 📝 Add or modify entries in `README.md` maintaining the existing table or list format.
-3. 🔗 Include accurate project name, official website/repo link, star count badge, licensing, and 1–2 sentence factual summary.
+3. 🔗 Include accurate project name, official website/repo link, Stars_Count badge, licensing, and 1–2 sentence factual summary.
 4. 🚀 Open a **Pull Request (PR)** with a clear title describing your changes.
 
 Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
